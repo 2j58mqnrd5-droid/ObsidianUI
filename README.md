@@ -11,6 +11,6 @@ One complete interface for World of Warcraft: Forever and Classic Era.
 3. Press **Select all**, then **Ctrl+C**.
 4. [Open a bug report](../../issues/new/choose) and paste it into the box for the report.
 
-The report holds your Obsidian UI and game versions, the errors it caught, what you did last, your settings and your profile's name. Nothing from your account.
+The report holds your Obsidian UI and game versions, the errors it caught, what you did last, your settings and your profile's name. Nothing from your account. Bug reports here are public, so anyone can read them.
 
 Questions and ideas are welcome in the [comments on CurseForge](https://www.curseforge.com/wow/addons/obsidian-ui/comments).

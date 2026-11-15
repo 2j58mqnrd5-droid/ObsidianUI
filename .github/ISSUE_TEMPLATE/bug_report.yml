@@ -9,6 +9,8 @@ body:
         Thanks for reporting. The report from `/oui bug` tells me your version, the errors Obsidian caught, what you did last and your settings, so it's the most useful thing you can send.
 
         **To get it:** in game, type `/oui bug`, write a line about what happened and press Enter. Then press **Select all**, then **Ctrl+C**, and paste it in the box below.
+
+        Bug reports here are public: anyone can read them. The report holds your Obsidian UI and game versions, the errors it caught, what you did last, your settings and your profile's name, and nothing from your account.
   - type: textarea
     id: what-happened
     attributes:
