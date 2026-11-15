@@ -1,0 +1,56 @@
+name: Bug report
+description: Something in Obsidian UI went wrong. Paste your /oui bug report here.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. The report from `/oui bug` tells me your version, the errors Obsidian caught, what you did last and your settings, so it's the most useful thing you can send.
+
+        **To get it:** in game, type `/oui bug`, write a line about what happened and press Enter. Then press **Select all**, then **Ctrl+C**, and paste it in the box below.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected instead.
+      placeholder: "The quest marker on a nameplate showed 2/5 when I had all 5."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can I make it happen?
+      description: The steps, if you know them. Leave it empty if you don't.
+      placeholder: |
+        1. Join a group with someone on the same quest
+        2. Finish your part
+        3. Look at the enemies' nameplates
+  - type: dropdown
+    id: game
+    attributes:
+      label: Which game?
+      options:
+        - "World of Warcraft: Forever"
+        - Classic Era
+        - Classic Era Hardcore
+    validations:
+      required: true
+  - type: textarea
+    id: bug-report
+    attributes:
+      label: Your /oui bug report
+      description: Type /oui bug in game, write a line about what happened, press Enter, then Select all and Ctrl+C. Paste it here, all of it.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag pictures into this box if they show the problem.
+  - type: textarea
+    id: other-addons
+    attributes:
+      label: Other addons
+      description: Other addons you had on, if any. The bug report names the ones Obsidian knows about.
